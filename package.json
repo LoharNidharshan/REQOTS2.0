@@ -1,0 +1,22 @@
+{
+  "name": "reqo",
+  "version": "1.0.0",
+  "description": "This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LoharNidharshan",
+  "license": "ISC",
+  "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1691.0",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^22.7.0"
+  }
+}
